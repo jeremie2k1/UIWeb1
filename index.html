@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <div class="ctnMenu">
+                <a class="active" href="#" title="Trang chủ">TRANG CHỦ</a>
+            </div>
+            <div class="ctnMenu">
+                <a href="#" title="Giới thiệu">GIỚI THIỆU</a>
+            </div>
+            <div class="ctnMenu">
+                <a href="#" title="Tin tức">TIN TỨC</a>
+            </div>
+            <div class="ctnMenu">
+                <a href="#" title="Sản phẩm">SẢN PHẨM</a>
+            </div>
+            <div class="ctnMenu">
+                <a href="#" title="Khuyến mãi">KHUYẾN MÃI</a>
+            </div>
+            <div class="ctnMenu">
+                <a href="#" title="Dịch vụ">DỊCH VỤ</a>
+            </div>
+            <div class="ctnMenu">
+                <a href="#" title="Liên hệ">LIÊN HỆ</a>
+            </div>
+            
+        </div>
+        <div id="banner">
+            <img src="./assets/images/banner.png">
+        </div>
+    </header>
+    <section id="main">
+        <div id="left">
+            <article class="art">
+                <img src="./assets/images/thoisu.jpg">
+                <div class="details">
+                    <h2 class="child--h2"><a href="#">2.300 tỷ đồng nâng cấp sân bay Côn Đảo</a></h2>
+                    <p class="child"><i>12h trước</i></p>
+                    <p class="child"><strong>BÀ RỊA - VŨNG TÀU:</strong> Cảng hàng không Côn Đảo sau khi nâng cấp đạt cấp 4C, rộng 141 ha, công suất 2 triệu khách một năm, chi phí đầu tư khoảng 2.300 tỷ đồng.</p>
+                    <p class="child--lv">Giao thông</p>    
+                </div>
+            </article>
+            <article class="art">
+                <img src="./assets/images/kinhdoanh.jpg">
+                <div class="details">
+                    <h2 class="child--h2"><a href="#">Người thất nghiệp Anh đổ đi hái dâu kiếm sống</a></h2>
+                    <p class="child"><i>39' trước</i></p>
+                    <p class="child"><strong>Anh:</strong> Dù thu nhập chỉ khoảng 10 USD một giờ, nhiều người Anh vẫn xin vào nông trại hái dâu để bớt nhàn rỗi và cô đơn mùa dịch.</p>
+                    <p class="child--lv">Quốc tế</p>    
+                </div>
+            </article>
+            <article class="art">
+                <img src="./assets/images/thethao.jpg">
+                <div class="details">
+                    <h2 class="child--h2"><a href="#">Tottenham bất lực trước Bournemouth</a></h2>
+                    <p class="child"><i>2h trước</i></p>
+                    <p class="child"><strong>Anh:</strong> Suýt thua trong những phút cuối, Tottenham chấp nhận hòa chủ nhà Bournemouth 0-0, ở vòng 34 Ngoại hạng Anh tối 9/7.</p>
+                    <p class="child--lv">Ngoại hạng anh</p>    
+                </div>
+            </article>
+            <article class="art">
+                <img src="./assets/images/suckhoe.jpg">
+                <div class="details">
+                    <h2 class="child--h2"><a href="#">Khô mắt - bệnh thường gặp mùa hè</a></h2>
+                    <p class="child"><i>5h trước</i></p>
+                    <p class="child"><strong>Việt Nam:</strong> Mùa hè nền nhiệt cao khiến nước mắt tiết ra bay hơi nhanh dễ dẫn đến tình trạng khô mắt, nhất là người làm việc văn phòng.</p>
+                    <p class="child--lv">Tư vấn</p>    
+                </div>
+            </article>
+            <article class="art">
+                <img src="./assets/images/doisong.jpg">
+                <div class="details">
+                    <h2 class="child--h2"><a href="#">Số phận một con người nhìn từ kỳ thi đại học</a></h2>
+                    <p class="child"><i>15h trước</i></p>
+                    <p class="child"><strong>Trung Quốc:</strong> Đối với người trẻ Trung Quốc, điểm cao trong kỳ thi đại học là phương tiện duy nhất để thay đổi số phận.</p>
+                    <p class="child--lv">Bài học sống</p>    
+                </div>
+            </article>
+        </div>
+        <div id="right">
+            <div class="menu_right">
+                <div class="menu_right_item">
+                    <div class="container" onclick="ChangeIcon(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <h3>DANH MỤC</h3>
+            </div>
+            <div class="item">
+                <i class="fa fa-thumbs-up"></i>
+                <p>Best Seller</p>
+            </div>
+            <div class="item">
+                <i class="fa fa-cutlery"></i>
+                <p>Thực phẩm</p>
+            </div>
+            <div class="item">
+                <i class="fa fa-check-circle-o"></i>
+                <p>Pick me</p>
+            </div>
+            <img class="image_right" src="./assets/images/calendar.gif">
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <p class="bracket">[</p>
+            <p>Hello</p>
+            <ul>
+                <li>World!</li>
+                <li>ml!</li>
+                <li>Anh Độ nhá!</li>
+                <li>anh em!</li>
+                <li>!</li>
+            </ul>
+            <p class="bracket">]</p>
+        </div>
+    </footer>
+
+</body>
+</html>
